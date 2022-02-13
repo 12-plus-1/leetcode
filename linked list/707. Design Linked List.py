@@ -1,46 +1,39 @@
-class ListNode:
-    def __init__(val = 0, next = None):
+class ListNode():
+    def __init__(self, val = 0, next = None):
         self.val = val
         self.next = next
 
-
-
 class MyLinkedList(object):
-
     def __init__(self):
-        self._head = ListNode(val = 0)
+        self._head = ListNode()
         self._count = 0
-        
 
     def get(self, index):
         """
         :type index: int
         :rtype: int
         """
-        cur = self._head
         if 0 <= index < self._count:
-            for i in range(index + 1):
+            cur = self._head
+            for i in range(0, index+1):
                 cur = cur.next
             return cur.val
         else:
             return -1
-        
-
+            
     def addAtHead(self, val):
         """
         :type val: int
         :rtype: None
         """
-        
-        
-        
+        self.addAtIndex(0, val)
 
     def addAtTail(self, val):
         """
         :type val: int
         :rtype: None
         """
-        
+        self.addAtIndex(self._count, val)
 
     def addAtIndex(self, index, val):
         """
@@ -48,32 +41,48 @@ class MyLinkedList(object):
         :type val: int
         :rtype: None
         """
-        cur = self._head
-        if index <= 0:
-            cur.val = val
-            cur.next = 
+        if index < 0:
+            index = 0
+        elif index > self._count:
+            return
         
+        # cur = self._head
+        # for i in range(0, index):
+        #     cur.next
+        # tep = cur.next
+        # cur.next = ListNode(val = val, next = tep)
+        # self._count += 1
         
+        self._count += 1
+        add_node = ListNode(val)
+        prev_node, current_node = None, self._head
+        for _ in range(index + 1):
+            prev_node, current_node = current_node, current_node.next
+        else:
+            prev_node.next, add_node.next = add_node, current_node
         
-
     def deleteAtIndex(self, index):
         """
         :type index: int
         :rtype: None
         """
+        # if 0 <= index < self._count:
+            # cur = self._head
+            # for i in range(0, index):
+            #     cur.next
+            # cur.next = cur.next.next
+        
+        if 0 <= index < self._count:
+            # 计数-1
+            self._count -= 1
+            prev_node, current_node = None, self._head
+            for _ in range(index + 1):
+                prev_node, current_node = current_node, current_node.next
+            else:
+                prev_node.next, current_node.next = current_node.next, None
+                
         
 
-'''
-to locate the index:
-if the start point is dummy head:
-# reach the node ahead of index for delete node in index and add node in index 
-for i in range(index):
-    cur = cur.next
-# reach the node of index for check value of node in index
-for i in range(index + 1):
-    cur = cur.next
-
-'''
 
 # Your MyLinkedList object will be instantiated and called as such:
 # obj = MyLinkedList()
