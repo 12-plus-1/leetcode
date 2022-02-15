@@ -17,6 +17,23 @@ class Solution(object):
             pre = cur
             cur = tep
         return pre
-        
-            
+ 
+ 
+class Solution(object):
+    def reverseList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        pre = None
+        cur = head
+        if head == None:
+            return
+        while 1:
+            tep = cur.next
+            cur.next = pre
+            pre = cur
+            cur = tep
+            if tep == None:
+                return pre
         
