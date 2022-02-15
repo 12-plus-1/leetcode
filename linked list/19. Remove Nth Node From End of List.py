@@ -27,3 +27,25 @@ class Solution(object):
         return dummy.next
         
         
+class Solution(object):
+    def removeNthFromEnd(self, head, n):
+        """
+        :type head: ListNode
+        :type n: int
+        :rtype: ListNode
+        """
+        dummyHead = ListNode(val = 0, next = head)
+        cur = dummyHead
+        counter = 0
+        while(cur.next != None):
+            cur = cur.next
+            counter += 1
+        cur = head
+        pre = dummyHead
+        for i in range(0, counter - n):
+            pre = cur 
+            cur = cur.next
+        else:
+            pre.next = cur.next
+            cur.next = None
+        return dummyHead.next
