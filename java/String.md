@@ -32,12 +32,15 @@ String slice = str.substring(1, 4);
 // only works for char list
 char[] list0 = new char[] {'1', '3', '4'};
 String str1 = new String(list0);
-
 ```
 ### String to List
 ```java
 String to CharArray:
 char[] charList = str.toCharArray();
 ```
+### ArrayList to String
+```java
+String str = String.join('', list);
 
+```
 
