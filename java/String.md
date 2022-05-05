@@ -43,4 +43,17 @@ char[] charList = str.toCharArray();
 String str = String.join('', list);
 
 ```
+### char to String
+```java
+String str = Character.toString(chr);
+```
+### int to String
+```java
+String str = String.valueOf(val);
+```
+### String to int
+```java
+int val = Integer.valueOf(str);
+```
+
 
