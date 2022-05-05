@@ -22,7 +22,9 @@ List<Integer> list = List.of(1, 2, 5);
 
 ## Method
 ### Array
+```java
 
+Arrays.sort(array); // no return
 
 ### ArrayList
 ```java
