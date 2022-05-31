@@ -21,7 +21,7 @@ List<Integer> list = List.of(1, 2, 5);
 
 
 ## Method
-### Array
+### ArrayList
 ```java
 
 Arrays.sort(array); // no return
