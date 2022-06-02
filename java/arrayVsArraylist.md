@@ -30,10 +30,10 @@ list.get(i)
 list.set(i, target)
 ```
 ## Method
-### ArrayList
+### Array
 ```java
 Arrays.sort(array); // no return
-
+```
 ### ArrayList
 ```java
 list.add(int index, E element)
