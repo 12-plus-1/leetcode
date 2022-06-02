@@ -11,6 +11,7 @@ str.equal(str0); // judge if 2 strings are equal
 ## Reference
 ### Get one element
 ```java
+str.substring(1, 2);
 str.charAt();
 ```
 
