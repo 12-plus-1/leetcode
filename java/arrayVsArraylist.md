@@ -59,7 +59,7 @@ List<Integer> list = List.of(array);
 ## duplicate
 ### Array
 ```java
-int[] list1 = list0; // shwllow copy
+int[] list1 = list0; // shallow copy
 System.arraycopy(list0, 0, list1, 0, 3) // a source array, the starting position to copy from source array, a destination array, the starting position in the destination array, and the number of elements to be copied
 
 int[] list2 = Arrays.copyOf(list0); // shallow if on an array of non-primitive object types.
