@@ -33,6 +33,7 @@ list.set(i, target)
 ### Array
 ```java
 Arrays.sort(array); // no return
+Arrays.stream(array).sum() //return summary
 ```
 ### ArrayList
 ```java
