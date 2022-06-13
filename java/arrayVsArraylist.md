@@ -33,6 +33,7 @@ list.set(i, target)
 ### Array
 ```java
 Arrays.sort(array); // no return
+[sort comparator](https://www.codejava.net/java-core/collections/sorting-arrays-examples-with-comparable-and-comparator)
 Arrays.stream(array).sum() //return summary
 ```
 ### ArrayList
