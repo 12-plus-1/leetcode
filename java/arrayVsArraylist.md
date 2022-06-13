@@ -54,6 +54,7 @@ Collections.sort(list) // no return
 ### List to Array
 ```java
 Integer[] array = list.toArray(new Integer[3]);
+int[][] array = list.toArray(new int[list.size()][]);
 ```
 ### Array to List
 ```java
