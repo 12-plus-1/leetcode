@@ -3,7 +3,7 @@
 ```java
 str.length(); //length of str object is a function
 String str = String.valueOf(num); // convert number to String
-str.equal(str0); // judge if 2 strings are equal
+str.equals(str0); // judge if 2 strings are equal
 
 ```
 
