@@ -76,4 +76,8 @@ int[] list2 = Arrays.copyOfRange(list0, 0, 2); // shallow if on an array of non-
 List<Integer> list1 = list0.clone // shallow copy 
 List<Integer> list1 = new ArrayList<>(list0); // deep copy
 ```
-
+## 
+```java
+Arrays.equals(arr1, arr2);
+list1.equals(list2);
+```
