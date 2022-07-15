@@ -16,7 +16,7 @@ import java.util.List;
 
 List<Integer> list = new ArrayList<>();
 List<String> list = new LinkedList<>();
-List<Integer> list = List.of(1, 2, 5);
+List<Integer> list = List.of(1, 2, 5); // IMMUTABLE!!!
 ```
 ## Reference and Replace
 ### Array
