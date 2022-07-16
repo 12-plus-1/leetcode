@@ -16,6 +16,11 @@ set.add(num);
 map.containsKey(str);
 set.contains(num);
 ```
+## Remove item
+```java
+map.remove(key);
+set.remove(item);
+```
 
 ## Access item
 ```java
