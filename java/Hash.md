@@ -8,6 +8,8 @@ Set<Integer> set = new HashSet<>();
 ## Add item
 ```java
 map.put(str, num);
+map.putIfAbsent(key, value)
+
 set.add(num);
 ```
 
