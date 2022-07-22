@@ -27,6 +27,10 @@ set.remove(item);
 ## Access item
 ```java
 map.get(key);
+// return value of key or default value if key is not existed.
+map.getOrDefault(key, default);
+
+set.get(item);
 ```
 
 get all item
