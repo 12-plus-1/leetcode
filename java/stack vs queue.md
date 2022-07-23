@@ -9,7 +9,14 @@
 | peek()   | peek()        |
 
 ## Deque
-
+```java
+offerFirst()
+offerLast()
+pollFirst()
+pollLast()
+peekFirst()
+peekLast()
+```
 
 ## Common Method
 ```java
