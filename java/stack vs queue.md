@@ -1,8 +1,11 @@
 # Stack&Queue
 
 ## Usual Method
+### In & Out
 | Stack      | Queue |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| push()      | offer()       |
+| pop()   | poll()        |
+| peek()   | peek()        |
 
+## Deque
