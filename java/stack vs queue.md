@@ -10,6 +10,7 @@
 
 ## Deque
 ```java
+Queue<Integer> dq = new ArrayDeque<>();
 Queue<Integer> dq = new LinkedList>();
 
 offerFirst()
