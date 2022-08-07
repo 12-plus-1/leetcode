@@ -10,6 +10,8 @@
 
 ## Deque
 ```java
+Queue<Integer> dq = new LinkedList>();
+
 offerFirst()
 offerLast()
 pollFirst()
