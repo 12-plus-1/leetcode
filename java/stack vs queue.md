@@ -10,8 +10,8 @@
 
 ## Deque
 ```java
-Queue<Integer> dq = new ArrayDeque<>();
-Queue<Integer> dq = new LinkedList>();
+Deque<Integer> dq = new ArrayDeque<>();
+Deque<Integer> dq = new LinkedList>();
 
 offerFirst()
 offerLast()
