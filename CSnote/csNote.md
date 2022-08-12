@@ -2,6 +2,7 @@
 
 ## Array
 ### sliding window
+For subarray/stirng that satisfies certain requirment
 
 ```java
 // LC3
