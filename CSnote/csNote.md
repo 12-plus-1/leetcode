@@ -34,6 +34,6 @@ class Solution {
 ```
 
 ### two pointers
-[https://leetcode.com/problems/sort-colors/]{LC75 sort colors}
+[LC75 sort colors](https://leetcode.com/problems/sort-colors/)
 maybe 3 pointers
 
