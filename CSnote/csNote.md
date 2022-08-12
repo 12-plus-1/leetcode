@@ -31,5 +31,9 @@ class Solution {
         return res;
     }
 }
-
 ```
+
+### two pointers
+[https://leetcode.com/problems/sort-colors/]{LC75 sort colors}
+maybe 3 pointers
+
