@@ -35,5 +35,11 @@ class Solution {
 
 ### two pointers
 [LC75 sort colors](https://leetcode.com/problems/sort-colors/)
-maybe 3 pointers
 
+maybe 3 pointers
+[LC647 Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+
+maybe dp
+[LC88 merge sorted array](https://leetcode.com/problems/merge-sorted-array/)
+
+maybe 2 pointers in seperate array
