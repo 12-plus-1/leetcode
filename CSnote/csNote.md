@@ -45,3 +45,21 @@ maybe dp
 [LC88 merge sorted array](https://leetcode.com/problems/merge-sorted-array/)
 
 maybe 2 pointers in seperate array
+
+### traverse from right
+Usually, use this tech with monotonic stack
+
+```java
+// monotonic stack
+for (int i = n - 1; i >= 0; i++) {
+    int cur = arr[i];
+    int record = 0;
+    while (!stk.isEmpty() && stk.peek() <= cur) {
+        stk.pop();
+        record++;
+    }
+    //do something;
+    stk.push(cur);
+}
+ 
+```
