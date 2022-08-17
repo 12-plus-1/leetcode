@@ -125,6 +125,10 @@ set
 ## heap
 
 ## MAX/MIN Integer
+```python
+a = floot('inf')
+b = floot('-inf')
+```
 
 ## MAX/MIN function
 ```python
