@@ -72,9 +72,40 @@ a = b ** c
 JAVA null is not false but Python null is False
 
 ## Stack, Queue, and Deque
+```python
+# stack
+stk = []
+sz = stk.size()
+topVal = stk.peek()
+stk.apppend(1)
+stk.pop()
+
+# queue and deque
+from collections import queue
+q = deque()
+sz = q.size()
+
+# push and offer
+q.append() # push & offer
+q.appendleft()
+
+# pop and poll
+q.pop() # pop
+q.popleft() # poll
+
+# peek
+q[0]
+q[-1]
+
+q.reverse()
+```
 
 ## Hash
 
 ## heap
 
 ## MAX/MIN Integer
+
+## Random
+
+
