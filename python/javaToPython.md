@@ -126,6 +126,11 @@ set
 
 ## MAX/MIN Integer
 
+## MAX/MIN function
+```python
+a = max(1, 3, 4)
+b = min(1, 3, 4)
+```
 ## Random
 ```python
 import random
