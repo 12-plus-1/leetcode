@@ -30,7 +30,7 @@ list = []
 | Java      | Python |
 | ----------- | ----------- |
 | list.add()    | list.append() |
-| list.add()    | list.append() |
+| list.remove(n - 1)    | list.pop(n - 1) |
 | list.get(i)   | list[i] |
 | list.size()   | len(list) |
 | list2 = list.clone()   | list2 = list[:] |
@@ -49,19 +49,24 @@ c = ord(str[0]) - ord(a)
 d = str[0] == b
 # result is True
 ```
+## Exponentiation
+```python
+a = b ** c
+```
+
 ## logical operator
-| Syntax      | Description |
+| Java      | Python |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-
+| &&      | and       |
+| ||   | or        |
+| !   | not        |
+| equals   | is        |
 
 ## boolean
-| Syntax      | Description |
+| Java      | Python |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| true      | True       |
+| flase   | False, None, 0, "", (), []        |
 JAVA null is not false but Python null is False
 
 ## Stack, Queue, and Deque
