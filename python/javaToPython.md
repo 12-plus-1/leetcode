@@ -127,5 +127,10 @@ set
 ## MAX/MIN Integer
 
 ## Random
+```python
+import random
+print(random.random()) # 0 to 1
+print(random.randint(a, b)) # random integer from a to b (b included)
 
+```
 
