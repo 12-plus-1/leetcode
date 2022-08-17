@@ -64,6 +64,7 @@ a = b ** c
 
 ## boolean
 | Java      | Python |
+| ----------- | ----------- |
 | true      | True       |
 | flase   | False, None, 0, "", (), []  |
 
