@@ -18,16 +18,22 @@ list = list(tup)
 ```
 ## string and list
 string
+str = "a string"
 | Java      | Python |
 | ----------- | ----------- |
 | str.charAt(i)      | str[i]       |
-| Paragraph   | Text        |
+| toString   | str(target)        |
+use ==
 
 list
-| Syntax      | Description |
+list = []
+| Java      | Python |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| list.add()    | list.append() |
+| list.add()    | list.append() |
+| list.get(i)   | list[i] |
+| list.size()   | len(list) |
+| list2 = list.clone()   | list2 = list[:] |
 
 ## sort
 
