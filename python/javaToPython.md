@@ -126,8 +126,8 @@ set
 
 ## MAX/MIN Integer
 ```python
-a = floot('inf')
-b = floot('-inf')
+a = float('inf')
+b = float('-inf')
 ```
 
 ## MAX/MIN function
