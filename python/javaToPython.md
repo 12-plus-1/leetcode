@@ -18,9 +18,9 @@ list = list(tup)
 ```
 ## string and list
 string
-| Syntax      | Description |
+| Java      | Python |
 | ----------- | ----------- |
-| Header      | Title       |
+| str.charAt(i)      | str[i]       |
 | Paragraph   | Text        |
 
 list
