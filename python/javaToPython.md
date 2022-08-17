@@ -101,6 +101,26 @@ q.reverse()
 ```
 
 ## Hash
+map
+| Java                                        | Python          |
+| ------------------------------------------- | --------------- |
+| Map<Integer, Integer> map = new HashMap<>() | dict = {}       |
+| put(key, val)                               | dict[key] = val |
+| get(key)                                    | get(key)        |
+| containsKey(key)                            | key in dict     |
+| remove(key)                                 | pop(key)        |
+| keySet()                                    | keys()          |
+| values                                      | values()        |
+| size()                                      | len(dict)       |
+
+set
+| Java                                | Python          |
+| ----------------------------------- | --------------- |
+| Set<Integer,> set = new HashSet<>() | set = {}       |
+| add(key)                            | set.add(item) |
+| contains(key)                       | key in set     |
+| remove(key)                         | remove(item)     |
+| size()                              | len(set)       |
 
 ## heap
 
