@@ -36,8 +36,6 @@ list = []
 | list.size()   | len(list) |
 | list2 = list.clone()   | list2 = list[:] |
 
-## sort
-
 ## ascii calculation
 ```python
 str = 'brty'
@@ -122,6 +120,13 @@ set
 | contains(key)                       | key in set     |
 | remove(key)                         | remove(item)     |
 | size()                              | len(set)       |
+
+## Sort
+```python
+list.sort(key = lambda x:x[1])
+
+```
+
 
 ## heap
 
