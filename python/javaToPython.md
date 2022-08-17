@@ -60,4 +60,8 @@ JAVA null is not false but Python null is False
 
 ## Stack, Queue, and Deque
 
+## Hash
+
 ## heap
+
+## MAX/MIN Integer
