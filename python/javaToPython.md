@@ -67,6 +67,7 @@ a = b ** c
 | ----------- | ----------- |
 | true      | True       |
 | flase   | False, None, 0, "", (), []        |
+
 JAVA null is not false but Python null is False
 
 ## Stack, Queue, and Deque
