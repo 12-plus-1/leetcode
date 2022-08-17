@@ -64,9 +64,8 @@ a = b ** c
 
 ## boolean
 | Java      | Python |
-| ----------- | ----------- |
 | true      | True       |
-| flase   | False, None, 0, "", (), []        |
+| flase   | False, None, 0, "", (), []  |
 
 JAVA null is not false but Python null is False
 
