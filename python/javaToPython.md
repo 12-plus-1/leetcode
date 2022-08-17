@@ -124,6 +124,8 @@ set
 ## Sort
 ```python
 list.sort(key = lambda x:x[1])
+dlist = [[1, 3], [1, 2], [2, 1], [3, 5]]
+dlist.sort(key = lambda x : (x[0], -x[1]))
 
 ```
 
