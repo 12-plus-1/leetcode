@@ -23,6 +23,7 @@ str = "a string"
 | ----------- | ----------- |
 | str.charAt(i)      | str[i]       |
 | toString   | str(target)        |
+
 use ==
 
 list
