@@ -21,7 +21,7 @@ str = 'brty'
 a = 'a'
 b = 'b'
 
-c = ord(str[0] - a)
+c = ord(str[0]) - ord(a)
 % result is 1
 
 d = str[0] == b
