@@ -27,3 +27,10 @@ c = ord(str[0]) - ord(a)
 d = str[0] == b
 # result is True
 ```
+## logical operator
+
+## boolean
+
+JAVA null is not false but Python null is False
+
+## Stack, Queue, and Deque
