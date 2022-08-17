@@ -107,6 +107,7 @@ map
 | Map<Integer, Integer> map = new HashMap<>() | dict = {}       |
 | put(key, val)                               | dict[key] = val |
 | get(key)                                    | get(key)        |
+| getOrDefault(key)                           | get(key, default) |        |
 | containsKey(key)                            | key in dict     |
 | remove(key)                                 | pop(key)        |
 | keySet()                                    | keys()          |
