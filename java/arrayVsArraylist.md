@@ -53,7 +53,7 @@ Collections.sort(list) // no return
 ## Convert
 ### List to Array
 ```java
-Integer[] array = list.toArray(new Integer[3]);
+Integer[] array = list.toArray(new Integer[list.size()]);
 int[][] array = list.toArray(new int[list.size()][]);
 ```
 ### Array to List
