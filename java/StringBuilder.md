@@ -15,6 +15,10 @@ sb.length();
 
 ## method
 ```java
+sb.charAt(index);
+
+sb.toString(); // deep copy
+
 sb.append(String / char); // str or char
 sb.delete(int start, int end);
 
