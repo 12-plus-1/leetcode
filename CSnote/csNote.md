@@ -65,4 +65,19 @@ for (int i = n - 1; i >= 0; i++) {
 ```
 
 ## Backtrack
-### conbination
+
+
+| Title             | feature                                                      | method                                           |
+| ----------------- | ------------------------------------------------------------ | ------------------------------------------------ |
+| combination       | unique element, single element used once, pick k from n      | start i + 1, store at end                        |
+| combination sum 1 | unique element, single element used many times, sum to target | start i, store at end                            |
+| combination sum 2 | repeat element, single element used once, sum to target      | sort, start i + 1, used(b), store at end         |
+| combination sum 3 | unique element, single element used once, pick k sum to target, **control path size** | start i + 1, store at end                        |
+| subset            |                                                              | start i + 1, store during process                |
+| subset2           | repeat element, single element used once, subset             | sort, start i + 1, used(b), store during process |
+| permutations      | unique element, single element used once                     | start 0, used(d), store at end                   |
+| permutations 2    | repeat element, single element used many times               | start 0, used(b, d), store at end                |
+|                   |                                                              |                                                  |
+|                   |                                                              |                                                  |
+
+
