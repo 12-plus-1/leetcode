@@ -44,7 +44,7 @@ array/arraylist to a string
 ```java
 List<String> arrlist = List.of("abc", "ert", "tyr");
 String[] arr = new String[]{"ert", "543"};
-String str = String.join("", arr); // not appliable for char[]
+String str = String.join("", arr); // not applicable for char[]
 String str = String.join("", arrlist);
 ```
 
