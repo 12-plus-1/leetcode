@@ -115,7 +115,7 @@ map
 set
 | Java                                | Python          |
 | ----------------------------------- | --------------- |
-| Set<Integer,> set = new HashSet<>() | set = {}       |
+| Set<Integer,> set = new HashSet<>() | set = set()       |
 | add(key)                            | set.add(item) |
 | contains(key)                       | key in set     |
 | remove(key)                         | remove(item)     |
