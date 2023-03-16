@@ -115,11 +115,11 @@ map
 set
 | Java                                | Python          |
 | ----------------------------------- | --------------- |
-| Set<Integer,> set = new HashSet<>() | set = set()       |
-| add(key)                            | set.add(item) |
-| contains(key)                       | key in set     |
-| remove(key)                         | remove(item)     |
-| size()                              | len(set)       |
+| Set<Integer,> set = new HashSet<>() | hash = set()       |
+| add(key)                            | hash.add(item) |
+| contains(key)                       | key in hash     |
+| remove(key)                         | hash.remove(item)     |
+| size()                              | len(hash)
 
 ## Sort
 ```python
